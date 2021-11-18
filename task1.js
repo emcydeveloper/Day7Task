@@ -87,7 +87,7 @@ function nameCapFlag() {
 //     outLI.style.border = "solid 1px";
     outLI.style.marginBottom = "10px";
     outLI.style.textAlign = "center";
-    outLI.style.width = "30%";
+//     outLI.style.width = "30%";
     outLI.innerHTML = `Country Name: ${arrName.name} <br> Capital:${arrName.capital}<br><img style="width: 20%" src="${arrName.flag}">`;
     // console.log(arrName.name + " -- "+ arrName.region);
     outUL.appendChild(outLI);
