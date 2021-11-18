@@ -49,7 +49,7 @@ function asiaContinent() {
   getAPIData.filter((arrName, position) => {
     if (arrName.region == "Asia") {
       let outLI = document.createElement("li");
-      outLI.innerHTML = "ddddddddddddddd   " + arrName.name;
+      outLI.innerHTML = arrName.name;
       // console.log(arrName.name + " -- "+ arrName.region);
       outUL.appendChild(outLI);
     }
@@ -84,7 +84,7 @@ function nameCapFlag() {
   let outUL = document.createElement("ul");
   getAPIData.filter((arrName, position) => {
     let outLI = document.createElement("li");
-    outLI.style.border = "solid 1px";
+//     outLI.style.border = "solid 1px";
     outLI.style.marginBottom = "10px";
     outLI.style.textAlign = "center";
     outLI.style.width = "30%";
