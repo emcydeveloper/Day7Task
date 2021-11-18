@@ -1,0 +1,25 @@
+#sortByOrder{
+/* width: 30%; */
+height: 30px;
+font-size: small;
+background-color: palegreen;
+}
+
+
+#btnSearch:hover{
+    background-color:cadetblue;
+    color:white;
+    /* color:black */
+    cursor: pointer;
+}
+
+#search{
+    text-align: center;
+}
+
+#btnSearch{
+    width:100px;
+    height: 30px;
+    /* background-color:whitesmoke; */
+    font-size: larger;
+}
